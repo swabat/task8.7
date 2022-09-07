@@ -1,0 +1,32 @@
+.container {
+    position: relative;
+    width: 1024px;
+    height: 100vh;
+    font-size: 18px;
+}
+
+.game-card {
+    height: 100vh;
+    font-family: 'Open Sans', monospace;
+}
+
+
+.hidden {
+    display: none;
+}
+
+.form-group-min, .form-group-max, .alertStart {
+    width: 800px;
+    height: 120px;
+    position: absolute;
+    top: 40%;
+    background-color: #C3DFFE;
+    text-align: center;
+    padding: 40px;
+}
+
+#btn-alertStart {
+   margin-top: 5px;
+   width: 100px;
+}
+
